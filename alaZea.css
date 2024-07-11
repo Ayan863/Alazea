@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* height: 42px;
+    width: 100%; */
+}
+.background {
+    position: absolute;
+    width: 100%;
+    height: 930px;
+    background: url('/2.jpg'); 
+    /* background-color: aliceblue; */
+    /* background-color: black; */
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.top{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* Class: topLeft */
+.topLeft{
+    display: flex;
+    gap: 2rem;
+}
+.email{
+    display: flex;   
+    align-items: center;
+    gap: 1rem;
+    filter: brightness(100%);
+}
+.email i{
+    font-size: 12px;
+    color: #70c745;
+}
+.email p{
+    font-size: 12px;
+    font-family: Dosis,sans-serif;
+    color: aliceblue;
+}
+.call{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.call i{
+    font-size: 12px;
+    color: #70c745;
+}
+.call p{
+    font-size: 12px;
+    font-family: Dosis,sans-serif;
+    color: aliceblue;
+}
+/* Class: topRight */
+.topRight{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.language button{
+    font-size: 12px;
+    font-weight:bold;
+    border: none;
+    background: transparent;
+    font-family: Dosis,sans-serif;
+    color: aliceblue;
+}
+.language i{
+    color: aliceblue;
+    font-size: 12px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.login i{
+    font-size: 12px;
+    color: #70c745;
+}
+.login span{
+    font-size: 12px;
+    font-family: Dosis,sans-serif;
+    color: aliceblue;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cart i{
+    font-size: 12px;
+    color: #70c745;
+}
+.cart span{
+    font-size: 12px;
+    font-family: Dosis,sans-serif;
+    color: aliceblue;
+}
+.line{
+    width: 1px;
+    height: 24px;
+    background-color: aliceblue;
+}
+.line1{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menus{
+    display: none;
+}
+.logo{
+    height: 22px;
+    width: 98px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Dosis,sans-serif;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: #70c745;
+}
+.menu i{
+    color: aliceblue;
+    align-items: center;
+}
+/* Plants exist in the weather */
+.firstPage{
+    width: 100%;
+    height: 754px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: Dosis,sans-serif;
+    text-align: center;
+    color: #ffffff;
+    
+    
+}
+.plant{
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+    width: 1110px;
+    
+}
+.lorem{
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 1119px;
+}
+.button{
+    display: flex;
+    gap: 30px;
+
+}
+.button a{
+    text-decoration: none;
+    font-family: Dosis,sans-serif;
+    min-width: 150px;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+}
+.started{
+    color: #ffffff;
+    background-color:#70c745;
+    border: 2px solid #70c745;
+}
+.contact{
+    color: #70c745;
+    border: 2px solid #70c745;
+    
+}
+.started:hover{
+    color: #70c745;
+    background: transparent;
+    border: 2px solid #70c745;
+}
+/*  */
+.secondPage{
+    width: 100%;
+    height: 670.8px;
+    background-color: #f2f4f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.ourService{
+    background-color: #f2f4f5;
+    text-align: center;
+}
+.ourService span{
+    font-size: 30px;
+    font-family: Dosis,sans-serif;
+}
+.ourService p{
+    font-size: 16px;
+    font-family: Dosis,sans-serif;
+    color: #707070;
+}
+/* .ourService{
+    margin: 1rem;
+} */
+.plants{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 1rem;
+
+}
+
+/* left side */
+.txt{
+    width: 465px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.txt1{
+    width: 370px;
+    height: 88.4px;
+    font-size: 16px;
+    font-family: Dosis,sans-serif;
+    color: #707070;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.txt1 span{
+    color: #303030;
+    font-size: 20px;
+}
+.care{
+    display: flex;
+    gap: 2rem;
+}
+.care img{
+    width: 45px;
+    height: 45px;
+}
+.wash{
+    display: flex;
+    gap: 2rem;
+}
+.wash img{
+    width: 45px;
+    height: 45px;
+}
+.trimm{
+    display: flex;
+    gap: 2rem;
+    
+}
+.trimm img{
+    width: 45px;
+    height: 45px;
+}
+/* right side */
+.video{
+    width: 540px;
+    height: 360.18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video img{
+    width: 540px;
+    height: 360.18px;
+    border-radius: 6px;
+    position: absolute;
+}
+.video i{
+    background-color: #70c745;
+    color: aliceblue;
+    /* font-size: 70px; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* about us */
+.about{
+    width: 475px;
+}
+.aU{
+    font-size: 30px;
+    font-family: dosis,sans-serif;
+}
+.about p{
+    font-size: 16px;
+    font-family: dosis,sans-serif;
+    color: #707070;
+}
+.per100{
+    width: 445px;
+    height: 10px;
+    color: #707070;
+}
+/* footer */
+footer{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.leftF{
+    display: flex;
+    align-items: center;
+}
+.leftF p{
+    font-size: 14px;
+    font-family: Dosis,sans-serif;
+    color: #b7b7b7;
+    font-weight: 400;
+}
+.leftF i{
+    font-size: 14px;
+    color: #707070;
+}
+.rightF{
+    display: flex;
+    align-items: center;
+    gap: 2rem; 
+}
+.rightF a{
+    text-decoration: none;
+    color: #b7b7b7;
+    font-family: Dosis,sans-serif;
+    font-size: 14px;
+}
+@media (max-width:600px)
+{
+    .menus{
+        display: block;
+    }
+    .video img {
+        width: 300px;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .topLeft{
+        justify-content: center;
+    }
+    .topRight{
+        justify-content: center;
+    }
+    .words{
+        width: 70%;
+    }
+    .leftF p{
+        font-size: 10px;
+    }
+    .lorem{
+        font-size: 10px;
+    }
+    .txt{
+        width: 100%;
+        justify-content: center;
+    }
+    .plant{
+        font-size: 22px;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .email p,
+    .call p{
+        font-size: 10px;
+    }
+    .rightF{
+        gap: 20px;
+    }
+    .line1{
+        position: absolute;
+        top: 1rem;
+    }
+}
+@media (max-width:992px){
+    .firstPage{
+        justify-content: center;
+    }
+    .menu a,
+    .fa-magnifying-glass{
+        display: none;
+    }
+    .firstPage{
+        width: 100%;
+        height: 33rem;
+    }
+    .plants{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .words{
+        width: auto;
+    }
+    .menus{
+        display: flex;
+    }
+}
